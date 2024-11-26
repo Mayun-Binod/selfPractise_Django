@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('firstApp.urls')),
     path('',include('secondApp.urls')),
+    path('',include('mynewssite.urls')),
 
 ]
